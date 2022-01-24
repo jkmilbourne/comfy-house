@@ -46,7 +46,7 @@ body {
   /* to align nav items verticaly */
   display: flex;
   align-items: center;
-  background: rgb(231, 226, 221);
+  background: rgba(231, 226, 221, );
   z-index: 1;
 }
 .navbar-center {
@@ -93,7 +93,7 @@ body {
 .hero {
   /* 100% vh minus navbar */
   min-height: 100vh;
-  background: url("../images/hero-bcg.jpeg") center/cover no-repeat;
+  background: url("../images/hero-bcg.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -314,7 +314,7 @@ form {
 /* --------------- About Us ------------------- */
 #aboutUs {
   height: 100vh;
-  background: url("../images/aboutUs.jpeg") center/cover no-repeat;
+  background: url("../images/aboutUs.jpg") center/cover no-repeat;
 }
 #aboutUsDiv {
   position: relative;
